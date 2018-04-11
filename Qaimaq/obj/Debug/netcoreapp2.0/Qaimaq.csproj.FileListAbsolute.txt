@@ -31,3 +31,14 @@ C:\Users\User\Desktop\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfoI
 C:\Users\User\Desktop\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfo.cs
 C:\Users\User\Desktop\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.dll
 C:\Users\User\Desktop\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.pdb
+C:\Repos\Qaimaq-Final\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.deps.json
+C:\Repos\Qaimaq-Final\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.runtimeconfig.json
+C:\Repos\Qaimaq-Final\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.runtimeconfig.dev.json
+C:\Repos\Qaimaq-Final\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.dll
+C:\Repos\Qaimaq-Final\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.pdb
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csprojResolveAssemblyReference.cache
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csproj.CoreCompileInputs.cache
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfoInputs.cache
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfo.cs
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.dll
+C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.pdb

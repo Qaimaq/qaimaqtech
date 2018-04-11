@@ -13124,23 +13124,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\turat\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+      "projectUniqueName": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\Qaimaq.csproj",
       "projectName": "Qaimaq",
-      "projectPath": "C:\\Users\\User\\Desktop\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\qaimaqweb\\Qaimaq\\obj\\",
+      "projectPath": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\Qaimaq.csproj",
+      "packagesPath": "C:\\Users\\turat\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\turat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
