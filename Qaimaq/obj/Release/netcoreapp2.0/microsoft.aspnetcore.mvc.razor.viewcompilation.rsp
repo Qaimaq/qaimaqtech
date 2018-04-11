@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Qaimaq\Qaimaq
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Qaimaq
+--content-root=C:\Users\User\Desktop\Qaimaq\Qaimaq
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Home\About.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Home\Contact.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Home\Index.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Projects\Index.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Shared\Error.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Shared\_Layout.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\_ViewImports.cshtml
+--file=C:\Users\User\Desktop\Qaimaq\Qaimaq\Views\_ViewStart.cshtml
