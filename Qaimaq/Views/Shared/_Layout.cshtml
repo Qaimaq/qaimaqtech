@@ -1,4 +1,22 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Http.Features
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+@using Microsoft.Extensions.Localization
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@inject IViewLocalizer Localizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+
+
+@{
+    var culture = Context.Features.Get<IRequestCultureFeature>
+        ().RequestCulture.Culture.TwoLetterISOLanguageName;
+}
+
+@using Microsoft.AspNetCore.Routing.Constraints;
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -62,72 +80,72 @@
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
                             <li class="active">
-                                <a asp-controller="Home" asp-action="Index">Home</a>
+                                <a asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
                             </li>
                             <li class="dropdown mega-dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">@Localizer["Services"] <span class="caret"></span></a>
                                 <div class="mega-menu dropdown-menu multi-level row bg-menu">
                                     <div class="col-md-4">
                                         <ul class="fa-ul no-icons text-s">
-                                            <li><a href="">Business Intelligence</a></li>
-                                            <li><a href="">Web Development</a></li>
-                                            <li><a href="">IT Consulting</a></li>
+                                            <li><a href="">@Localizer["Business_Intelligence"]</a></li>
+                                            <li><a href="">@Localizer["Web_Development"]</a></li>
+                                            <li><a href="">@Localizer["IT_Consulting"]</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul class="fa-ul no-icons text-s">
-                                            <li><a href="">IT Outsource</a></li>
-                                            <li><a href="">Structured Сabling</a></li>
-                                            <li><a href="">Alerting System</a></li>
+                                            <li><a href="">@Localizer["IT_Outsource"]</a></li>
+                                            <li><a href="">@Localizer["Structured_Cabling"]</a></li>
+                                            <li><a href="">@Localizer["Alerting_System"]</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul class="fa-ul no-icons text-s">
-                                            <li><a href="">Fire Alarm System</a></li>
-                                            <li><a href="">Access control</a></li>
-                                            <li><a href="">Video Surveillance System</a></li>
+                                            <li><a href="">@Localizer["Fire_Alarm_System"]</a></li>
+                                            <li><a href="">@Localizer["Access_control"]</a></li>
+                                            <li><a href="">@Localizer["Video_Surveillance_System"]</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sales <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">@Localizer["Sales"] <span class="caret"></span></a>
                                 <ul class="dropdown-menu multi-level fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
                                     <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Software</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Software"]</a>
                                         <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">Server Systems</a></li>
-                                            <li><a href="">Productivity</a></li>
-                                            <li><a href="">Security</a></li>
-                                            <li><a href="">Cloud</a></li>
+                                            <li><a href="">@Localizer["Server_Systems"]</a></li>
+                                            <li><a href="">@Localizer["Productivity"]</a></li>
+                                            <li><a href="">@Localizer["Security"]</a></li>
+                                            <li><a href="">@Localizer["Cloud"]</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Hardware</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Hardware"]</a>
                                         <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">Servers</a></li>
-                                            <li><a href="">Computers</a></li>
-                                            <li><a href="">UPS</a></li>
+                                            <li><a href="">@Localizer["Servers"]</a></li>
+                                            <li><a href="">@Localizer["Computers"]</a></li>
+                                            <li><a href="">@Localizer["UPS"]</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">IT Infrastructure</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["IT_Infrastructure"]</a>
                                         <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">Cables</a></li>
-                                            <li><a href="">Network Equipment</a></li>
-                                            <li><a href="">Telco Eqiupment</a></li>
+                                            <li><a href="">@Localizer["Cables"]</a></li>
+                                            <li><a href="">@Localizer["Network_Equipment"]</a></li>
+                                            <li><a href="">@Localizer["Telco_Equipment"]</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a asp-controller="Projects" asp-action="Index">Portfolio</a>
+                                <a asp-controller="Projects" asp-action="Index">@Localizer["Portfolio"]</a>
                             </li>
                             <li>
-                                <a asp-controller="Home" asp-action="About">About</a>
+                                <a asp-controller="Home" asp-action="About">@Localizer["About"]</a>
                             </li>
                             <li>
-                                <a asp-controller="Home" asp-action="Contact">Contact</a>
+                                <a asp-controller="Home" asp-action="Contact">@Localizer["Contact"]</a>
                             </li>
                         </ul>
                         <div class="nav navbar-nav navbar-right">

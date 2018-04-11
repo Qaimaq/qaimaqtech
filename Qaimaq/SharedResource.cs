@@ -1,6 +1,6 @@
 ﻿namespace Qaimaq
 {
-    internal class SharedResource
+    public class SharedResource
     {
     }
 }
