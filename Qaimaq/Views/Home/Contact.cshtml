@@ -3,13 +3,16 @@
 }
 
 <div class="section-map box-middle-container row-20">
-    <div class="google-map" data-coords="40.741895,-73.989308" data-zoom="12" data-skin="gray" data-marker-pos-top="30" data-marker-pos="col-md-6-right" data-marker="http://templates.framework-y.com/yellowbusiness/images/marker-map.png"></div>
+    <div class="map_area">
+        <div id="googleMap" style="width:100%;height:600px;"></div>
+    </div>
+
     <div class="overlaybox overlaybox-side overlaybox">
         <div class="container content">
             <div class="row">
-                <div class="col-md-6 overlaybox-inner box-middle" data-anima="fade-left">
+                <div class="col-md-4 overlaybox-inner box-middle" data-anima="fade-left">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-10 col-md-offset-1">
                             <h4 class="text-m text-normal">Yellow Business</h4>
                             <p class="text-left">
                                 Ligula aenean, voluptatem a lorem laoreet quod dolores acnatoque modiignani merto inventore.
@@ -30,7 +33,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-10 col-md-offset-1">
                             <hr class="space visible-xs" />
                             <h4 class="text-m text-normal">Contacts</h4>
                             <p>
@@ -127,13 +130,32 @@
         </div>
     </div>
 </div>
-
-
-<link href="~/js/flexslider/flexslider.css" rel="stylesheet" />
-
-
-@section scripts {
-<script asp-src-include="~/js/google.maps.min.js">
+<!-- Google Map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV-beQ5SMsk8Mk66Zkf1CLP4HtvJJFmsA"></script>
+<script>
+    function initialize() {
+        var mapOptions = {
+            zoom: 16,
+            scrollwheel: false,
+            center: new google.maps.LatLng(43.261975, 76.950881)
+        };
+        var map = new google.maps.Map(document.getElementById('googleMap'),
+            mapOptions);
+        var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            animation: google.maps.Animation.BOUNCE,
+            icon: '..//images/map-icon.png',
+            map: map
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-}
+
+
+@*
+
+    @section scripts {
+    <script asp-src-include="~/js/google.maps.min.js">
+    </script>
+    }*@
 <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>

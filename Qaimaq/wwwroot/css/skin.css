@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+.btn-default i, .btn i, .btn-text i {
+    color: #585858!important;
+}
+.btn:hover i, .btn.focus {
+    color: #fff !important;
+}
 .extra-content, .nav:not(.ms-rounded) li > a:before, .boxed.advs-box-top-icon-img .advs-box-content, [class*="col-md-"].boxed,
 .advs-box-side-img hr, .mi-menu .sidebar-nav, .advs-box-top-icon-img.niche-box-post:after, .accordion-list .list-group-item:before, [class*=header-] .title-base h1:before,
 .woocommerce .product span.onsale, .circle-button, .btn.circle-button, .btn, .header-bootstrap, .header-title hr, .advs-box.boxed, i.circle, .intro-box:after, .intro-box:before,
@@ -87,7 +93,7 @@ body div.boxed-border.border-yellow, .pagination li.active a {
 
 .white.btn, .white .btn, .white .tag-row a, .header-bootstrap i.icon, .white .tag-row i, .white .advs-box-content h2 a, .white.advs-box-side-img h2 a, .advs-box-side-icon.boxed .icon-box i,
 .circle-button, .white .pagination > li.disabled > a, .white .pagination > li > a, .social-colors i, .btn.circle-button, .btn, .btn i, .circle-button, .btn.circle-button, .btn:hover,
-.btn:hover i, .btn.focus, .input-group button {
+ .input-group button {
     color: #fff;
 }
 
@@ -123,6 +129,8 @@ header .side-menu .active, .white.btn:not(.btn-border), .white .btn:not(.btn-bor
 .white form .form-control {
     border-color: #fff !important;
     color: #fff !important;
+    background: #fff;
+    border-radius: 4px;
 }
 
 .section-bg-color .advs-box-top-icon.boxed-inverse .icon, .section-bg-color .advs-box-top-icon .icon, .navbar-mini, .header-base:not(.bg-cover) {
@@ -519,12 +527,16 @@ HEADER AND MENUS
     font-weight: 500;
     font-size: 14px;
 }
-
+.btn:focus {
+    outline-color: #bbb !important;
+    background: transparent !important;
+}
 .navbar-main .btn-search {
-    margin-top: 12px;
+    margin: 2px 0;
     border: none;
     background: none;
-    font-size: 24px;
+    padding: 12px 15px;
+    font-size: 16px;
 }
 
 .search-box {
@@ -1865,4 +1877,11 @@ RESPONSIVE
 }
 a:hover{
     text-decoration:none;
+}
+.navbar {
+    margin-bottom: 0!important;
+    border: 0px!important;
+}
+.dropdown-menu {
+    min-width: 250px;
 }
