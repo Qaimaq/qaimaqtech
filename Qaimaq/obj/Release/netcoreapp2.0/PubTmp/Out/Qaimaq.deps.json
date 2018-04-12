@@ -30,6 +30,17 @@
         "runtime": {
           "Qaimaq.dll": {}
         },
+        "resources": {
+          "en/Qaimaq.resources.dll": {
+            "locale": "en"
+          },
+          "kk/Qaimaq.resources.dll": {
+            "locale": "kk"
+          },
+          "ru/Qaimaq.resources.dll": {
+            "locale": "ru"
+          }
+        },
         "compile": {
           "Qaimaq.dll": {}
         }
