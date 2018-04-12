@@ -13124,47 +13124,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\turat\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\User\\.nuget\\packages\\": {},
->>>>>>> 2e3f13a49ab51edc2917882c5e3a4a878e7de0ed
+    "C:\\Users\\s0ul3\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Repos\\Qaimaq\\Qaimaq\\Qaimaq.csproj",
+      "projectUniqueName": "C:\\Users\\s0ul3\\Desktop\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
       "projectName": "Qaimaq",
-      "projectPath": "C:\\Repos\\Qaimaq\\Qaimaq\\Qaimaq.csproj",
-      "packagesPath": "C:\\Users\\turat\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Qaimaq\\Qaimaq\\obj\\",
-=======
-      "projectUniqueName": "C:\\work repos\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
-=======
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
->>>>>>> 56738b6f2888544d1899c193798fd789f5f3f3f4
-      "projectName": "Qaimaq",
-      "projectPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-<<<<<<< HEAD
-      "outputPath": "C:\\work repos\\qaimaqweb\\Qaimaq\\obj\\",
->>>>>>> 2e3f13a49ab51edc2917882c5e3a4a878e7de0ed
-=======
-      "outputPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\obj\\",
->>>>>>> 56738b6f2888544d1899c193798fd789f5f3f3f4
+      "projectPath": "C:\\Users\\s0ul3\\Desktop\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+      "packagesPath": "C:\\Users\\s0ul3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s0ul3\\Desktop\\qaimaqweb\\Qaimaq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\turat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2e3f13a49ab51edc2917882c5e3a4a878e7de0ed
+        "C:\\Users\\s0ul3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13209,5 +13185,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\s0ul3\\Desktop\\qaimaqweb\\Qaimaq\\obj\\Qaimaq.csproj.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
