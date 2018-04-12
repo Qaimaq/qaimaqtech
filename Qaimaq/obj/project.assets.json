@@ -13124,34 +13124,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\turat\\.nuget\\packages\\": {},
+    "C:\\Users\\tawr9\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\qaimaq-tech\\Qaimaq\\Qaimaq.csproj",
+      "projectUniqueName": "D:\\WORK!\\qaimaq.tech\\Qaimaq\\Qaimaq.csproj",
       "projectName": "Qaimaq",
-      "projectPath": "C:\\Users\\User\\Desktop\\qaimaq-tech\\Qaimaq\\Qaimaq.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\qaimaq-tech\\Qaimaq\\obj\\",
-=======
-      "projectUniqueName": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\Qaimaq.csproj",
-      "projectName": "Qaimaq",
-      "projectPath": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\Qaimaq.csproj",
-      "packagesPath": "C:\\Users\\turat\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Qaimaq-Final\\Qaimaq\\obj\\",
->>>>>>> 92b8df98d4628ecc251b628626ef6d53b5ad5df8
+      "projectPath": "D:\\WORK!\\qaimaq.tech\\Qaimaq\\Qaimaq.csproj",
+      "packagesPath": "C:\\Users\\tawr9\\.nuget\\packages\\",
+      "outputPath": "D:\\WORK!\\qaimaq.tech\\Qaimaq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\turat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tawr9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13196,5 +13185,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\WORK!\\qaimaq.tech\\Qaimaq\\obj\\Qaimaq.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
