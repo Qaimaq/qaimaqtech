@@ -13130,11 +13130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work repos\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
       "projectName": "Qaimaq",
-      "projectPath": "C:\\work repos\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\work repos\\qaimaqweb\\Qaimaq\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
