@@ -13135,6 +13135,7 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Repos\\Qaimaq\\Qaimaq\\Qaimaq.csproj",
       "projectName": "Qaimaq",
       "projectPath": "C:\\Repos\\Qaimaq\\Qaimaq\\Qaimaq.csproj",
@@ -13142,11 +13143,18 @@
       "outputPath": "C:\\Repos\\Qaimaq\\Qaimaq\\obj\\",
 =======
       "projectUniqueName": "C:\\work repos\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
+>>>>>>> 56738b6f2888544d1899c193798fd789f5f3f3f4
       "projectName": "Qaimaq",
-      "projectPath": "C:\\work repos\\qaimaqweb\\Qaimaq\\Qaimaq.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\Qaimaq.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "C:\\work repos\\qaimaqweb\\Qaimaq\\obj\\",
 >>>>>>> 2e3f13a49ab51edc2917882c5e3a4a878e7de0ed
+=======
+      "outputPath": "C:\\Users\\User\\Desktop\\qaimaqtech\\Qaimaq\\obj\\",
+>>>>>>> 56738b6f2888544d1899c193798fd789f5f3f3f4
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

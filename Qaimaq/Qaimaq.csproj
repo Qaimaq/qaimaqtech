@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Resources\Views\Home\" />
   </ItemGroup>
 
 </Project>

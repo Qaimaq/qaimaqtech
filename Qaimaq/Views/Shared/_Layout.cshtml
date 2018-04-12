@@ -89,12 +89,15 @@
                                 </button>
                             </div>
                             <ul class="nav navbar-nav lan-menu">
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="~/images/en.png" alt="" />En<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Kazakh</a></li>
-                                        <li><a href="#">Russian</a></li>
-                                    </ul>
+                                <li class="">
+                                    <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><i class="fa fa-globe"></i><span class="caret"></span></a>
+                                    
+                                    @*
+        <ul class="dropdown-menu">
+            <li><a href="#">Kazakh</a></li>
+            <li><a href="#">Russian</a></li>
+        </ul>
+                                    *@
                                 </li>
                             </ul>
                         </div>
@@ -173,6 +176,46 @@
             </div>
         </div>
     </header>
+    <!-- Modal -->
+    <!-- Start 1 modal-->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel" style="text-align:center">Choose your language</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-sm-6">
+
+                        <ul>
+                            <li><a asp-area="" asp-route-culture="en">English</a></li>
+                            <li><a asp-area="" asp-route-culture="ru">Russian</a></li>
+                            <li><a asp-area="" asp-route-culture="kk">Kazakh</a></li>
+                            <li>English</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+
+                        <ul>
+                            <li>English</li>
+                            <li>English</li>
+                            <li>English</li>
+                            <li>English</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 modal-footer">
+                    <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End 1 modal-->
     @RenderBody()
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base">
@@ -246,7 +289,7 @@
     <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>*@
     <script src="~/js/jquery.slimscroll.min.js"></script>
     <script src="~/js/jquery.progress-counter.js"></script>
     <script src="~/js/jquery.tab-accordion.js"></script>
@@ -261,7 +304,14 @@
     <script src="~/js/smooth.scroll.min.js"></script>
     <script src="~/js/site.js"></script>
     <script src="~/js/google.maps.min.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            //Handles menu drop down
+            $('.dropdown-menu-language').find('form').click(function (e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
     @RenderSection("Scripts", required: false)
 
 </body>
