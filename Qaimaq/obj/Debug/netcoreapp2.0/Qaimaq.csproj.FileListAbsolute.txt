@@ -66,3 +66,13 @@ C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfo.cs
 C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.dll
 C:\Repos\Qaimaq-Final\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.pdb
 >>>>>>> 92b8df98d4628ecc251b628626ef6d53b5ad5df8
+C:\Repos\Qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\en\Qaimaq.resources.dll
+C:\Repos\Qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\kk\Qaimaq.resources.dll
+C:\Repos\Qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\ru\Qaimaq.resources.dll
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.en.resources
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.kk.resources
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.ru.resources
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csproj.GenerateResource.cache
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\en\Qaimaq.resources.dll
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\kk\Qaimaq.resources.dll
+C:\Repos\Qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\ru\Qaimaq.resources.dll

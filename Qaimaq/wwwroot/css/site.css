@@ -4061,6 +4061,7 @@ ul.list-texts {
     ul.list-texts li {
         list-style-type: none;
         padding: 3px 0;
+        width: 90%;
     }
 
         ul.list-texts li b {
