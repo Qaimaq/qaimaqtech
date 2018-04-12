@@ -5392,6 +5392,7 @@ SECTION MAP
 
     .overlaybox-side.overlaybox-center, .overlaybox-side.overlaybox-center .row {
         text-align: center;
+
     }
 
     .overlaybox-side .overlaybox-inner {
@@ -5400,6 +5401,7 @@ SECTION MAP
         box-shadow: 0 2px 2px rgba(0,0,0,0.08);
         border-radius: 3px;
         margin: 0 25px;
+        width:calc(50%-25px)
         
     }
 
