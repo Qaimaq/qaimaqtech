@@ -38,11 +38,19 @@ namespace Qaimaq
                 var supportedCultures = new[]
                 {
                     new CultureInfo("en"),
+                    new CultureInfo("en-US"),
                     new CultureInfo("kk"),
-                    new CultureInfo("ru")
+                    new CultureInfo("ru"),
+                    new CultureInfo("de"),
+                    new CultureInfo("it"),
+                    new CultureInfo("fr"),
+                    new CultureInfo("es"),
+                    new CultureInfo("zh"),
+                    new CultureInfo("ja"),
+                    new CultureInfo("ko"),
                 };
 
-                options.DefaultRequestCulture = new RequestCulture("en");
+                options.DefaultRequestCulture = new RequestCulture("en-US");
                 options.SupportedCultures = supportedCultures;
                 options.SupportedUICultures = supportedCultures;
             });
@@ -64,7 +72,7 @@ namespace Qaimaq
             };
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
-                DefaultRequestCulture = new RequestCulture("en"),
+                DefaultRequestCulture = new RequestCulture("en-US"),
                 SupportedCultures = supportedCultures,
                 SupportedUICultures = supportedCultures
             });

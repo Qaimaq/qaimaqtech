@@ -14,7 +14,7 @@
     var culture = Context.Features.Get<IRequestCultureFeature>
         ().RequestCulture.Culture.TwoLetterISOLanguageName;
 }
-
+    
 @using Microsoft.AspNetCore.Routing.Constraints;
 <!DOCTYPE html>
 <html>
@@ -91,12 +91,12 @@
                             <ul class="nav navbar-nav lan-menu">
                                 <li class="">
                                     <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><i class="fa fa-globe"></i><span class="caret"></span></a>
-                                    
+
                                     @*
-        <ul class="dropdown-menu">
-            <li><a href="#">Kazakh</a></li>
-            <li><a href="#">Russian</a></li>
-        </ul>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Kazakh</a></li>
+                                            <li><a href="#">Russian</a></li>
+                                        </ul>
                                     *@
                                 </li>
                             </ul>
@@ -183,30 +183,33 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                    <h4 class="modal-title" id="myModalLabel" style="text-align:center">Choose your language</h4>
+                    <h4 class="modal-title" id="myModalLabel" style="text-align:center">Choose your country</h4>
                 </div>
-                <div class="modal-body">
-                    <div class="col-sm-6">
 
-                        <ul>
-                            <li><a asp-area="" asp-route-culture="en">English</a></li>
-                            <li><a asp-area="" asp-route-culture="ru">Russian</a></li>
-                            <li><a asp-area="" asp-route-culture="kk">Kazakh</a></li>
-                            <li>English</li>
-                            <li>English</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-
-                        <ul>
-                            <li>English</li>
-                            <li>English</li>
-                            <li>English</li>
-                            <li>English</li>
-                            <li>English</li>
-                        </ul>
-                    </div>
+                <div class="col-sm-6 col-md-6">
+                    <h3 style="text-align:center">Europe</h3>
+                    <ul>
+                        <li><a asp-area="" asp-route-culture="de">Deutschland</a></li>
+                        <li><a asp-area="" asp-route-culture="en">England</a></li>
+                        <li><a asp-area="" asp-route-culture="es">España</a></li>
+                        <li><a asp-area="" asp-route-culture="fr">France</a></li>
+                        <li><a asp-area="" asp-route-culture="it">Italia</a></li>
+                        <li><a asp-area="" asp-route-culture="ru">Россия</a></li>
+                    </ul>
                 </div>
+                <div class="col-sm-6 col-md-6">
+                    <h3 style="text-align:center">Asia,Pacific</h3>
+                    <ul>
+                        <li><a asp-area="" asp-route-culture="en">Australia</a></li>
+                        <li><a asp-area="" asp-route-culture="en">India</a></li>
+                        <li><a asp-area="" asp-route-culture="kk">Казахстан</a></li>
+                        <li><a asp-area="" asp-route-culture="zh">China</a></li>
+                        <li><a asp-area="" asp-route-culture="ja">Japan</a></li>
+                        <li><a asp-area="" asp-route-culture="ko">Korea</a></li>
+
+                    </ul>
+                </div>
+
                 <div class="col-12 modal-footer">
                     <center>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -313,6 +316,8 @@
         });
     </script>
     @RenderSection("Scripts", required: false)
+
+   
 
 </body>
 </html>
