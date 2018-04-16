@@ -162,3 +162,24 @@ D:\WORK!\qaimaq.tech\Qaimaq\obj\Debug\netcoreapp2.0\kk\Qaimaq.resources.dll
 D:\WORK!\qaimaq.tech\Qaimaq\obj\Debug\netcoreapp2.0\ru\Qaimaq.resources.dll
 D:\WORK!\qaimaq.tech\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.dll
 D:\WORK!\qaimaq.tech\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.pdb
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.deps.json
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.runtimeconfig.json
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.runtimeconfig.dev.json
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.dll
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\Qaimaq.pdb
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\en\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\kk\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\bin\Debug\netcoreapp2.0\ru\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csprojResolveAssemblyReference.cache
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.en.resources
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.kk.resources
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.Resources.Views.Shared._Layout.ru.resources
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csproj.GenerateResource.cache
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.csproj.CoreCompileInputs.cache
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfoInputs.cache
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.AssemblyInfo.cs
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\en\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\kk\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\ru\Qaimaq.resources.dll
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.dll
+C:\work repos\qaimaq\Qaimaq\obj\Debug\netcoreapp2.0\Qaimaq.pdb
