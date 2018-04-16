@@ -1233,7 +1233,7 @@ DROPDOWN
 
     .dropdown-submenu > .dropdown-menu {
         top: 0;
-        left: 100%;
+        left: 100%!important;
         margin-top: 0;
         box-shadow: 5px 4px 7px rgba(0,0,0,0.1);
         border-top-left-radius: 0;
@@ -1241,7 +1241,8 @@ DROPDOWN
     }
 
 .dropdown-menu > li > a {
-    padding: 10px 20px;
+    padding: 10px 20px !important;
+    margin-top: -4px;
 }
 
 header .dropdown-submenu > .dropdown-menu {
@@ -1310,13 +1311,17 @@ MEGA DROPDOWN
 
     .mega-menu.bg-menu {
         min-width: 400px;
+        max-width: 600px;
     }
+a:focus, a:hover{
+    text-decoration:none!important;
+}
 
-    .mega-menu .nav-tabs li {
-        white-space: nowrap;
-        margin-bottom: 0 !important;
-        border-radius: 0;
-    }
+.mega-menu .nav-tabs li {
+    white-space: nowrap;
+    margin-bottom: 0 !important;
+    border-radius: 0;
+}
 
     .mega-menu h5 {
         margin-top: 5px;
@@ -7451,3 +7456,21 @@ button.close {
     margin: 0;
     line-height: 1.42857143;
 }
+a.footer-link {
+    color: #c91010 !important
+}
+    a.footer-link:hover {
+        color: #222 !important;
+        padding-left: 5px;
+    }
+a.link-qaimaq:hover > span {
+    color: #c91010;
+    transition-duration: 500ms;
+}
+.copy-text a.link-qaimaq {
+    color: #777;
+}
+    .copy-text a.link-qaimaq:hover {
+        color: #c91010;
+        transition-duration: 500ms;
+    }

@@ -23,4 +23,8 @@
     <Folder Include="Resources\Views\Home\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\titlebar\bi.jpg" />
+  </ItemGroup>
+
 </Project>
