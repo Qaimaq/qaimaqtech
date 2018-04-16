@@ -102,7 +102,7 @@
                             </ul>
                         </div>
                         <ul class="nav navbar-nav">
-                            <li class="active">
+                            <li class="">
                                 <a asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
                             </li>
                             <li class="dropdown mega-dropdown">
@@ -168,7 +168,7 @@
                                 <a asp-controller="Home" asp-action="About">@Localizer["About"]</a>
                             </li>
                             <li>
-                                <a asp-controller="Home" asp-action="Contact">@Localizer["Contact"]</a>
+                                <a asp-controller="Home" asp-action="Contact" title="Contact">@Localizer["Contact"]</a>
                             </li>
                         </ul>
                     </div>
@@ -315,9 +315,18 @@
             });
         });
     </script>
+    @if (!string.IsNullOrEmpty(ViewBag.CurrentPage))
+    {
+        <script type="text/javascript">
+        $(function () {
+            $("li[title=@ViewBag.CurrentPage]").addClass("active");
+        });
+        </script>
+    }
+
     @RenderSection("Scripts", required: false)
 
-   
+
 
 </body>
 </html>
