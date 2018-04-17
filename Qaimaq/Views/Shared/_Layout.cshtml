@@ -14,7 +14,7 @@
     var culture = Context.Features.Get<IRequestCultureFeature>
         ().RequestCulture.Culture.TwoLetterISOLanguageName;
 }
-    
+
 @using Microsoft.AspNetCore.Routing.Constraints;
 <!DOCTYPE html>
 <html>
@@ -102,10 +102,10 @@
                             </ul>
                         </div>
                         <ul class="nav navbar-nav">
-                            <li class="">
+                            <li title="Home">
                                 <a asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
                             </li>
-                            <li class="dropdown mega-dropdown">
+                            <li class="dropdown mega-dropdown" title="Services">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">@Localizer["Services"] <span class="caret"></span></a>
                                 <div class="mega-menu dropdown-menu multi-level row bg-menu">
                                     <div class="col-md-4">
@@ -131,7 +131,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown" title="Sales">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">@Localizer["Sales"] <span class="caret"></span></a>
                                 <ul class="dropdown-menu multi-level fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
                                     <li class="dropdown dropdown-submenu">
@@ -161,13 +161,13 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li title="Portfolio">
                                 <a asp-controller="Projects" asp-action="Index">@Localizer["Portfolio"]</a>
                             </li>
-                            <li>
+                            <li title="About">
                                 <a asp-controller="Home" asp-action="About">@Localizer["About"]</a>
                             </li>
-                            <li>
+                            <li title="Contact">
                                 <a asp-controller="Home" asp-action="Contact" title="Contact">@Localizer["Contact"]</a>
                             </li>
                         </ul>

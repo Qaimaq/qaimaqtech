@@ -1,7 +1,10 @@
 ﻿@{
     ViewData["Title"] = "IT-Outsourcing";
 }
-
+@{
+    ViewBag.Title = "Services";
+    ViewBag.CurrentPage = "Services";
+}
 <div class="header-title white" data-parallax="scroll" data-position="top" data-natural-height="650" data-natural-width="1920" data-image-src="../images/bg-2.jpg">
     <div class="container">
         <div class="title-base">
@@ -91,98 +94,98 @@
         <hr class="space" />
         <hr class="space s" />
         @*<div class="row">
-            <div class="col-md-3 col-sm-6 boxed-inverse shadow-2 text-center">
-                <div class="progress-circle" data-color="#F3B007" data-progress="20">
-                    <div class="inner-circle">
-                        <div class="inner-center">
-                            <div class="subtitle c">
-                                <h2 class="main">OLD MATERIALS</h2>
-                                <span class="counter-circle"></span>
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-2 text-center">
+                    <div class="progress-circle" data-color="#F3B007" data-progress="20">
+                        <div class="inner-circle">
+                            <div class="inner-center">
+                                <div class="subtitle c">
+                                    <h2 class="main">OLD MATERIALS</h2>
+                                    <span class="counter-circle"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 boxed-inverse shadow-2 text-center">
-                <div class="progress-circle" data-color="#F3B007" data-progress="90">
-                    <div class="inner-circle">
-                        <div class="inner-center">
-                            <div class="subtitle c">
-                                <h2 class="main">GREEN AND ECO</h2>
-                                <span class="counter-circle"></span>
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-2 text-center">
+                    <div class="progress-circle" data-color="#F3B007" data-progress="90">
+                        <div class="inner-circle">
+                            <div class="inner-center">
+                                <div class="subtitle c">
+                                    <h2 class="main">GREEN AND ECO</h2>
+                                    <span class="counter-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <hr class="space visible-sm" />
+                    <h2 class="text-normal">Renovation and buildings</h2>
+                    <p class="text-color text-normal no-margins">Cheap prices</p>
+                    <hr class="space s" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed d in voluptate velit esse cillum dolore eu fugiat nulla pariaturo eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo construd exercitation ullamco laboris nisi uadipiscing elitsed do eiusmod tempor incididunt sequat.
+                    </p>
+                    <hr class="space s" />
+                    <div class="row vertical-row">
+                        <div class="col-md-3">
+                            <p class="text-normal">Success rate</p>
+                        </div>
+                        <div class="col-md-9">
+                            <hr class="space xs" />
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" data-progress="100">
+                                    <span><span>100%</span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <hr class="space visible-sm" />
-                <h2 class="text-normal">Renovation and buildings</h2>
-                <p class="text-color text-normal no-margins">Cheap prices</p>
-                <hr class="space s" />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elitsed d in voluptate velit esse cillum dolore eu fugiat nulla pariaturo eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                    Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo construd exercitation ullamco laboris nisi uadipiscing elitsed do eiusmod tempor incididunt sequat.
-                </p>
-                <hr class="space s" />
-                <div class="row vertical-row">
-                    <div class="col-md-3">
-                        <p class="text-normal">Success rate</p>
-                    </div>
-                    <div class="col-md-9">
-                        <hr class="space xs" />
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped" data-progress="100">
-                                <span><span>100%</span></span>
+            <hr class="space" />
+            <hr class="space s" />
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-normal">Outdoor and gardening</h2>
+                    <p class="text-color text-normal no-margins">Green technologies</p>
+                    <hr class="space s" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed d in voluptate velit esse cillum dolore eu fugiat nulla pariaturo eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo construd exercitation ullamco laboris nisi uadipiscing elitsed do eiusmod tempor incididunt sequat.
+                    </p>
+                    <hr class="space s" />
+                    <a href="#" class="btn-border btn btn-sm">More details</a><span class="space"></span>
+                    <a href="#" class="btn btn-sm">Contact us</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="grid-list gallery">
+                        <div class="grid-box row" data-lightbox-anima="fade-top">
+                            <div class="grid-item col-md-6">
+                                <a class="img-box row-5 shadow-2" href="../images/gallery/image-3.jpg">
+                                    <img src="../images/gallery/image-3.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-6">
+                                <a class="img-box row-5 shadow-2" href="../images/gallery/image-2.jpg">
+                                    <img src="../images/gallery/image-2.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-6">
+                                <a class="img-box row-5 shadow-2" href="../images/gallery/image-16.jpg">
+                                    <img src="../images/gallery/image-16.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-6">
+                                <a class="img-box row-5 shadow-2" href="../images/gallery/image-4.jpg">
+                                    <img src="../images/gallery/image-4.jpg" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <hr class="space" />
-        <hr class="space s" />
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-normal">Outdoor and gardening</h2>
-                <p class="text-color text-normal no-margins">Green technologies</p>
-                <hr class="space s" />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elitsed d in voluptate velit esse cillum dolore eu fugiat nulla pariaturo eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                    Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo construd exercitation ullamco laboris nisi uadipiscing elitsed do eiusmod tempor incididunt sequat.
-                </p>
-                <hr class="space s" />
-                <a href="#" class="btn-border btn btn-sm">More details</a><span class="space"></span>
-                <a href="#" class="btn btn-sm">Contact us</a>
-            </div>
-            <div class="col-md-6">
-                <div class="grid-list gallery">
-                    <div class="grid-box row" data-lightbox-anima="fade-top">
-                        <div class="grid-item col-md-6">
-                            <a class="img-box row-5 shadow-2" href="../images/gallery/image-3.jpg">
-                                <img src="../images/gallery/image-3.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="grid-item col-md-6">
-                            <a class="img-box row-5 shadow-2" href="../images/gallery/image-2.jpg">
-                                <img src="../images/gallery/image-2.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="grid-item col-md-6">
-                            <a class="img-box row-5 shadow-2" href="../images/gallery/image-16.jpg">
-                                <img src="../images/gallery/image-16.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="grid-item col-md-6">
-                            <a class="img-box row-5 shadow-2" href="../images/gallery/image-4.jpg">
-                                <img src="../images/gallery/image-4.jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>*@
+            </div>*@
     </div>
 </div>
 <div class="section-empty">
