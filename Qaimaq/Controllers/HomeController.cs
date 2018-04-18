@@ -8,6 +8,7 @@ using Qaimaq.Models;
 
 namespace Qaimaq.Controllers
 {
+    //[RequireHttps]
     public class HomeController : Controller
     {
         private readonly IStringLocalizer<HomeController> _localizer;

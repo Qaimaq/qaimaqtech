@@ -2,6 +2,7 @@
 
 namespace Qaimaq.Controllers
 {
+   // [RequireHttps]
     public class ServicesController : Controller
     {
         public IActionResult BI()

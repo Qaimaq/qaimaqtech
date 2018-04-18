@@ -1,0 +1,22 @@
+C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Qaimaq
+--content-root=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Home\About.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Home\Contact.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Home\Index.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Projects\Index.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\Access_control.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\Alerting_System.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\BI.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\Fire_Alarm_System.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\IT_Consulting.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\IT_Outsourcing.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\Structured_Cabling.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\Video_Surveillance_System.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Services\WebDev.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Shared\Error.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Shared\_Layout.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\_ViewImports.cshtml
+--file=C:\Users\user\Desktop\РАБ СТОЛ\qaimaqtech\Qaimaq\Views\_ViewStart.cshtml

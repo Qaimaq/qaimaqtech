@@ -700,7 +700,6 @@ TITLES
 .title-base {
     flex-direction: column-reverse;
     display: flex;
-    text-shadow: 0 1px 10px #333;
 }
 
 [class*=header-] .title-base {

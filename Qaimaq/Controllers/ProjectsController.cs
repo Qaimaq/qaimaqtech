@@ -2,6 +2,7 @@
 
 namespace Qaimaq.Controllers
 {
+   // [RequireHttps]
     public class ProjectsController : Controller
     {
         public IActionResult Index()
