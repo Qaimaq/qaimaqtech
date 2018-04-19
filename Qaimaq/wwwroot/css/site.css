@@ -63,7 +63,7 @@ body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-
 
 .scroll-top-mobile {
     position: fixed;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.88);
     width: 50px;
     height: 50px;
     z-index: 995;
@@ -3188,7 +3188,7 @@ PAGINATION
     width: 6px;
     height: 6px;
     transition: right .15s;
-    border-color: rgba(93, 93, 93, 0.5);
+    border-color: rgba(255, 255, 255, 0.8);
 }
 
 .white .fullpage-arrow i:before, .white .fullpage-varrow i:before, .white .mfp-arrow:before, .white li > a > .plus-times:before {

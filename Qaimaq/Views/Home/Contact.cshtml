@@ -10,11 +10,11 @@
 @*<link rel="stylesheet" href="~/css/skin.css">*@
 
 <div class="section-map box-middle-container row-20">
-    <div class="google-map" data-coords="40.741895,-73.989308" data-zoom="17" data-skin="gray" data-marker-pos-top="30" data-marker-pos="col-md-6-right" data-marker="../images/map-icon.png"></div>
+    <div class="google-map" data-coords="43.261991,76.950793" data-zoom="17" data-skin="gray" data-marker-pos-top="30" data-marker-pos="col-md-6-right" data-marker="../images/map-icon.png"></div>
     <div class="overlaybox overlaybox-side overlaybox">
         <div class="container content">
             <div class="row">
-                <div class="col-md-6 overlaybox-inner box-middle" data-anima="fade-left">
+                <div class="col-md-6 overlaybox-inner box-middle" data-anima="fade-left" style="margin-top: 135px; position: relative; transition-duration: 500ms; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;" aid="0.1878497578813909">
                     <div class="row">
                         <div class="col-md-6">
                             <h4 class="text-m text-normal">Yellow Business</h4>
@@ -134,6 +134,7 @@
         </div>
     </div>
 </div>
+
 <!-- Google Map js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV-beQ5SMsk8Mk66Zkf1CLP4HtvJJFmsA"></script>
 <script>
@@ -154,7 +155,7 @@
     }
     google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-
+<script src="~/js/script.js"></script>
 
 
 
@@ -162,6 +163,6 @@
 
 @section scripts {
     <script asp-src-include="~/js/google.maps.min.js">
-    </script>
+</script>
 }
 <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
