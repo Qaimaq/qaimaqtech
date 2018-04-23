@@ -73,14 +73,15 @@
                         <button type="button" class="navbar-toggle">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="@Url.Action("Index","Home")">
+                        @*  <a class="navbar-brand" href="@Url.Action("Index","Home")">*@
+                        <a class="navbar-brand" href="#">
                             <img class="logo-default" src="../images/logo.png" alt="logo" />
                             <img class="logo-retina" src="../images/logo-retina.png" alt="logo" />
                         </a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <div class="nav navbar-nav navbar-right">
-                            <div class="search-box-menu">
+                            @*<div class="search-box-menu">
                                 <div class="search-box scrolldown">
                                     <input type="text" class="form-control" placeholder="Search for...">
                                 </div>
@@ -88,90 +89,90 @@
                                     <span class="fa fa-search"></span>
                                 </button>
                             </div>
-                            <ul class="nav navbar-nav lan-menu">
-                                <li class="">
-                                    <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><i class="fa fa-globe"></i></a>
+                            @*<ul class="nav navbar-nav lan-menu">
+                    <li class="">
+                        <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><i class="fa fa-globe"></i></a>
 
-                                    @*
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Kazakh</a></li>
-                                            <li><a href="#">Russian</a></li>
-                                        </ul>
-                                    *@
-                                </li>
+                        @*
+        <ul class="dropdown-menu">
+            <li><a href="#">Kazakh</a></li>
+            <li><a href="#">Russian</a></li>
+        </ul>
+
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav">
+                <li title="Home">
+                    <a asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
+                </li>
+                <li class="dropdown mega-dropdown" title="Services">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">@Localizer["Services"] <span class="caret"></span></a>
+                    <div class="mega-menu dropdown-menu multi-level row bg-menu">
+                        <div class="col-md-4">
+                            <ul class="fa-ul no-icons text-s">
+                                <li><a asp-controller="Services" asp-action="BI">@Localizer["Business_Intelligence"]</a></li>
+                                <li><a asp-controller="Services" asp-action="WebDev">@Localizer["Web_Development"]</a></li>
+                                <li><a asp-controller="Services" asp-action="IT_Consulting">@Localizer["IT_Consulting"]</a></li>
                             </ul>
                         </div>
-                        <ul class="nav navbar-nav">
-                            <li title="Home">
-                                <a asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
-                            </li>
-                            <li class="dropdown mega-dropdown" title="Services">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">@Localizer["Services"] <span class="caret"></span></a>
-                                <div class="mega-menu dropdown-menu multi-level row bg-menu">
-                                    <div class="col-md-4">
-                                        <ul class="fa-ul no-icons text-s">
-                                            <li><a asp-controller="Services" asp-action="BI">@Localizer["Business_Intelligence"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="WebDev">@Localizer["Web_Development"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="IT_Consulting">@Localizer["IT_Consulting"]</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <ul class="fa-ul no-icons text-s">
-                                            <li><a asp-controller="Services" asp-action="IT_Outsourcing">@Localizer["IT_Outsource"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="Structured_Cabling">@Localizer["Structured_Cabling"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="Alerting_System">@Localizer["Alerting_System"]</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <ul class="fa-ul no-icons text-s">
-                                            <li><a asp-controller="Services" asp-action="Fire_Alarm_System">@Localizer["Fire_Alarm_System"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="Access_control">@Localizer["Access_control"]</a></li>
-                                            <li><a asp-controller="Services" asp-action="Video_Surveillance_System">@Localizer["Video_Surveillance_System"]</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="dropdown" title="Sales">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">@Localizer["Sales"] <span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-level fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                    <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Software"]</a>
-                                        <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">@Localizer["Server_Systems"]</a></li>
-                                            <li><a href="">@Localizer["Productivity"]</a></li>
-                                            <li><a href="">@Localizer["Security"]</a></li>
-                                            <li><a href="">@Localizer["Cloud"]</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Hardware"]</a>
-                                        <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">@Localizer["Servers"]</a></li>
-                                            <li><a href="">@Localizer["Computers"]</a></li>
-                                            <li><a href="">@Localizer["UPS"]</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown dropdown-submenu">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["IT_Infrastructure"]</a>
-                                        <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
-                                            <li><a href="">@Localizer["Cables"]</a></li>
-                                            <li><a href="">@Localizer["Network_Equipment"]</a></li>
-                                            <li><a href="">@Localizer["Telco_Equipment"]</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li title="Portfolio">
-                                <a asp-controller="Projects" asp-action="Index">@Localizer["Portfolio"]</a>
-                            </li>
-                            <li title="About">
-                                <a asp-controller="Home" asp-action="About">@Localizer["About"]</a>
-                            </li>
-                            <li title="Contact">
-                                <a asp-controller="Home" asp-action="Contact" title="Contact">@Localizer["Contact"]</a>
-                            </li>
-                        </ul>
+                        <div class="col-md-4">
+                            <ul class="fa-ul no-icons text-s">
+                                <li><a asp-controller="Services" asp-action="IT_Outsourcing">@Localizer["IT_Outsource"]</a></li>
+                                <li><a asp-controller="Services" asp-action="Structured_Cabling">@Localizer["Structured_Cabling"]</a></li>
+                                <li><a asp-controller="Services" asp-action="Alerting_System">@Localizer["Alerting_System"]</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="fa-ul no-icons text-s">
+                                <li><a asp-controller="Services" asp-action="Fire_Alarm_System">@Localizer["Fire_Alarm_System"]</a></li>
+                                <li><a asp-controller="Services" asp-action="Access_control">@Localizer["Access_control"]</a></li>
+                                <li><a asp-controller="Services" asp-action="Video_Surveillance_System">@Localizer["Video_Surveillance_System"]</a></li>
+                            </ul>
+                        </div>
                     </div>
+                </li>
+                <li class="dropdown" title="Sales">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">@Localizer["Sales"] <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
+                        <li class="dropdown dropdown-submenu">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Software"]</a>
+                            <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
+                                <li><a href="">@Localizer["Server_Systems"]</a></li>
+                                <li><a href="">@Localizer["Productivity"]</a></li>
+                                <li><a href="">@Localizer["Security"]</a></li>
+                                <li><a href="">@Localizer["Cloud"]</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["Hardware"]</a>
+                            <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
+                                <li><a href="">@Localizer["Servers"]</a></li>
+                                <li><a href="">@Localizer["Computers"]</a></li>
+                                <li><a href="">@Localizer["UPS"]</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">@Localizer["IT_Infrastructure"]</a>
+                            <ul class="dropdown-menu fade-in" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
+                                <li><a href="">@Localizer["Cables"]</a></li>
+                                <li><a href="">@Localizer["Network_Equipment"]</a></li>
+                                <li><a href="">@Localizer["Telco_Equipment"]</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li title="Portfolio">
+                    <a asp-controller="Projects" asp-action="Index">@Localizer["Portfolio"]</a>
+                </li>
+                <li title="About">
+                    <a asp-controller="Home" asp-action="About">@Localizer["About"]</a>
+                </li>
+                <li title="Contact">
+                    <a asp-controller="Home" asp-action="Contact" title="Contact">@Localizer["Contact"]</a>
+                </li>
+            </ul>*@
+                        </div>
                 </div>
             </div>
         </div>
@@ -221,65 +222,68 @@
     <!-- End 1 modal-->
     @RenderBody()
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
-    <footer class="footer-base">
+    <footer class="footer-base" style="position: absolute; width: 100%;bottom: 0;">
         <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 footer-left text-left">
-                        <img src="~/images/qaimaq-footer-logo.png" />
+            @*<div class="container">
+            <div class="row">
+                *<div class="col-md-4 footer-left text-left">
+                    <img src="~/images/qaimaq-footer-logo.png" />
 
-                        <hr class="space m" />
-                        <p class="text-s">64 Zhibek Zholy. A26F3M9, Almaty, Kazakhstan.</p>
-                        <div class="tag-row text-s">
-                            <a href="mailto:info@qaimaq.com" class="link-qaimaq" style="border-right: 1px solid #CCC;padding-right: 16px;"><span>info@qaimaq.tech</span></a>
-                            <a href="tel:+77272731363" class="link-qaimaq"><span>+7 727 2731363</span></a>
-                        </div>
-                        <hr class="space m" />
+                    <hr class="space m" />
+                    <p class="text-s">64 Zhibek Zholy. A26F3M9, Almaty, Kazakhstan.</p>
+                    <div class="tag-row text-s">
+                        <a href="mailto:info@qaimaq.com" class="link-qaimaq" style="border-right: 1px solid #CCC;padding-right: 16px;"><span>info@qaimaq.tech</span></a>
+                        <a href="tel:+77272731363" class="link-qaimaq"><span>+7 727 2731363</span></a>
+                    </div>
+                    <hr class="space m" />
 
-                    </div>
-                    <div class="col-md-4 footer-left text-left">
-                        <div class="row">
-                            <div class="col-md-6 text-s">
-                                <h3>Menu</h3>
-                                <a href="#" class="footer-link">Home</a><br />
-                                <a href="#" class="footer-link">Contacts</a><br />
-                                <a href="#" class="footer-link">Future projects</a><br />
-                                <a href="#" class="footer-link">Locations</a><br />
-                                <a href="#" class="footer-link">Latest news</a><br />
-                            </div>
-                            <div class="col-md-6 text-s">
-                                <h3>Pages</h3>
-                                <a href="#" class="footer-link">Support</a><br />
-                                <a href="#" class="footer-link">Terms of services</a><br />
-                                <a href="#" class="footer-link">RSS Feeds</a><br />
-                                <a href="#" class="footer-link">Partnerships</a><br />
-                                <a href="#" class="footer-link">Latest news</a><br />
-                            </div>
+                </div>
+                <div class="col-md-4 footer-left">
+                    <div class="row">
+                        <div class="col-md-6 text-s">
+                            <h3>Menu</h3>
+                            <a href="#" class="footer-link">Home</a><br />
+                            <a href="#" class="footer-link">Contacts</a><br />
+                            <a href="#" class="footer-link">Future projects</a><br />
+                            <a href="#" class="footer-link">Locations</a><br />
+                            <a href="#" class="footer-link">Latest news</a><br />
+                        </div>
+                        <div class="col-md-6 text-s">
+                            <h3>Pages</h3>
+                            <a href="#" class="footer-link">Support</a><br />
+                            <a href="#" class="footer-link">Terms of services</a><br />
+                            <a href="#" class="footer-link">RSS Feeds</a><br />
+                            <a href="#" class="footer-link">Partnerships</a><br />
+                            <a href="#" class="footer-link">Latest news</a><br />
                         </div>
                     </div>
-                    <div class="col-md-4 footer-left text-left">
-                        <h3>You can trust us</h3>
-                        <p class="text-s">
-                            Utenim ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo.
-                        </p>
-                        <hr class="space xs" />
-                        <div class="btn-group social-group btn-group-icons">
-                            <a target="_blank" href="#" data-social="share-facebook">
-                                <i class="fa fa-facebook text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-twitter">
-                                <i class="fa fa-twitter text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-google">
-                                <i class="fa fa-google-plus text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-linkedin">
-                                <i class="fa fa-linkedin text-xs circle"></i>
-                            </a>
-                        </div>
+                    <div class="text-center" style="padding-top:33%">
+                        <h4></h4>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-left text-left">
+                    <h3>You can trust us</h3>
+                    <p class="text-s">
+                        Utenim ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo.
+                    </p>
+                    <hr class="space xs" />
+                    <div class="btn-group social-group btn-group-icons">
+                        <a target="_blank" href="#" data-social="share-facebook">
+                            <i class="fa fa-facebook text-xs circle"></i>
+                        </a>
+                        <a target="_blank" href="#" data-social="share-twitter">
+                            <i class="fa fa-twitter text-xs circle"></i>
+                        </a>
+                        <a target="_blank" href="#" data-social="share-google">
+                            <i class="fa fa-google-plus text-xs circle"></i>
+                        </a>
+                        <a target="_blank" href="#" data-social="share-linkedin">
+                            <i class="fa fa-linkedin text-xs circle"></i>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>*@
             <div class="row copy-row">
                 <div class="col-md-12 copy-text">
                     © 2018 | <a href="https://qaimaq.tech/" class="link-qaimaq">Qaimaq</a>
